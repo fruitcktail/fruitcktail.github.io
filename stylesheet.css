@@ -10,13 +10,30 @@ div {
     transition: 0.3s
 }
 div { width:40%; }
+.container {
+    padding: none;
+}
+img {
+    display:block;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 2vh;
+    border-radius: 1vw;
+    transition: 0.3s;
+    opacity: 0.8;
+}
 @media screen and (max-width: 1400px) {
     div { width:65%; }
+    img { width:69%; }
 }
 @media screen and (max-width: 768px) {
     div { width:95%; }
 }
 div:hover {
+    opacity: 1;
+}
+img:hover {
     opacity: 1;
 }
 body {
