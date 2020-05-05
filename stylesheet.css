@@ -41,5 +41,5 @@ img:hover {
 }
 body {
     background-color: #723f6e;
-    background-image: linear-gradient(to bottom right, rgb(68, 0, 255), rgb(205, 0, 212)); /* Standard syntax (must be last) */
+    background-image: linear-gradient(to bottom right, rgb(132, 0, 255), rgb(187, 25, 236)); /* Standard syntax (must be last) */
 }
