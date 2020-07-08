@@ -9,24 +9,25 @@ div {
     opacity: 0.8;
     transition: 0.3s
 }
-div { width: auto%; }
+div { width: auto; }
 img { 
+    margin: auto;
     width: 40vw;
-    height: auto%;
+    height: auto;
     border-radius:1vw;
 }
 @media screen and (max-width: 1400px) {
     div { width:65%; }
     img { 
         width: 65vw;
-        height: auto%;
+        height: auto;
     }
 }
 @media screen and (max-width: 768px) {
     div { width:95%; }
     img { 
         width: 95vw;
-        height: auto%;
+        height: auto;
     }
 }
 div:hover {
