@@ -1,0 +1,33 @@
+body {
+    background-color: #2e3440;
+    padding:5%;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 7vh;
+    text-align: center;
+    color: #eceff4
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    color: #eceff4
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    color: #d8dee9
+}
+#main {
+    border-radius:1vw;
+    background-color:#3b4252;
+    padding:2%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition:0.5s;
+}
+#main:hover {
+    background-color:#4c566a;
+}
